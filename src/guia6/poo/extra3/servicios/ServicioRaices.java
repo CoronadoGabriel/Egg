@@ -30,6 +30,8 @@ public class ServicioRaices {
         raices.setB(scanner.nextDouble());
         System.out.println("ingrese coeficiente c");
         raices.setC(scanner.nextDouble());
+        System.out.println(raices.getA()+"X² + "+raices.getB()+"X + "+raices.getC());
+              
         return raices;
     }
     
