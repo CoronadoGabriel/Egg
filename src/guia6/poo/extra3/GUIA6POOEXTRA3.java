@@ -20,6 +20,7 @@ public class GUIA6POOEXTRA3 {
     public static void main(String[] args) {
         ServicioRaices sr = new ServicioRaices();
         Raices r = sr.crearRaices();
+        System.out.println("Discriminante: "+ sr.getDiscriminante(r));
     }
     
 }
